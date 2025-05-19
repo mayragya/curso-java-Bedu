@@ -15,7 +15,7 @@ public class Factura {
 
     // Método público que devuelve un resumen de la factura
     public String getResumen() {
-        String resumen = "📄 Factura generada:\n";
+        String resumen = "Factura generada:\n";
         resumen += "Descripción: " + descripcion + "\n";
         resumen += "Monto: $" + monto + "\n";
 
